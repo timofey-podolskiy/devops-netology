@@ -2,4 +2,25 @@
 ## DEVSYS-21
 ### Тимофей Подольский 
 
-В gitignore добавил папку .idea, все содержимое этой папки будет исключено из контроля версий
+
+Описание `terraform/.gitignore`
+
+- Содержимое папки `.terraform`
+
+
+- Файлы 
+    - `crash.log` 
+    - `override.tf`
+    - `override.tf.json`
+    - `terraform.rc`
+    - `.terraformrc`
+    
+
+- Файлы по маске
+    - `*_override.tf`
+    - `*_override.tf.json`
+    - `*.tfvars`
+    - `*.tfvars.json`
+    - `crash.*.log`
+    - `*.tfstate`
+    - `*.tfstate.*`
